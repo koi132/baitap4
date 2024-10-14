@@ -105,7 +105,7 @@ button:hover {
             <button type="submit">Login</button>
 
             <!-- Register button styled as a link -->
-            <button type="button" class="cancelbtn" onclick="location.href='/ltweb/views/register.jsp'">Register</button>
+            <a href="${pageContext.request.contextPath}/register">Register</a>
 
             <div class="checkbox-container">
                 <label>
